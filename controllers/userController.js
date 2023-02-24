@@ -39,6 +39,7 @@ module.exports.userLogin = async (req, res) => {
       message: 'user not found'
     })
   } catch (err) {
+    console.log(err);
     return res.status(400).json(err)
   }
 
