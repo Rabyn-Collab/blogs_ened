@@ -11,7 +11,7 @@ mongoose.set('strictQuery', false);
 mongoose.connect(
   'mongodb+srv://Rabyn:moles@cluster0.q1x9les.mongodb.net/Blogs?retryWrites=true&w=majority', (err) => {
     if (err) {
-      console.log(err);
+
     }
     app.listen(5000);
   })
